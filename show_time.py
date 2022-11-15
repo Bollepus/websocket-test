@@ -1,9 +1,8 @@
- #!/usr/bin/env python
- 
- import asyncio
- import datetime
- import random
- import websockets
+#!/usr/bin/env python
+import asyncio
+import datetime
+import random
+import websockets
  
 async def show_time(websocket):
      while True:
